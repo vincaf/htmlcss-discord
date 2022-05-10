@@ -208,6 +208,12 @@ main img{
     font-size: 24px;
     padding: 15px;
 }
+.slide_2 div{
+    background-image: url("./img/stars.svg");
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
 
 /* Sesta sezione main */
 
