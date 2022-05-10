@@ -105,42 +105,57 @@ main section{
     display: flex;
     justify-content: center;
     background-color: #fff;
+    align-items: center;
 }
 
 .box1{
-    flex-basis: 45%;
+    flex-basis: 40%;
     height: 400px;
-    background-color: #1e90ff;
-    border: 2px dashed black;
+    background-color: #fff;
+    align-self: center;
 }
 
 .box2{
-    flex-basis: 25%;
+    flex-basis: 22%;
     height: 400px;
-    background-color: #ffc0cb;
-    border: 2px dashed black;
+    background-color: #fff;
+    align-self: center;
 }
+
+main h2{
+    font-size: 42px;
+}
+
+main p{
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+main img{
+    width: 100%;
+}
+
 
 /* Terza sezione main */
 
 .third_container{
     display: flex;
     justify-content: center;
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
+    align-items: center;
 }
 
 .box4{
-    flex-basis: 45%;
+    flex-basis: 40%;
     height: 400px;
-    background-color: #1e90ff;
-    border: 2px dashed black;
+    background-color: #f6f6f6;
 }
 
 .box3{
-    flex-basis: 25%;
+    flex-basis: 22%;
     height: 400px;
-    background-color: #ffc0cb;
-    border: 2px dashed black;
+    background-color: #f6f6f6;
 }
 
 /* Quarta sezione main */
@@ -149,20 +164,19 @@ main section{
     display: flex;
     justify-content: center;
     background-color: #fff;
+    align-items: center;
 }
 
 .box5{
-    flex-basis: 45%;
+    flex-basis: 40%;
     height: 400px;
-    background-color: #1e90ff;
-    border: 2px dashed black;
+    background-color: #fff;
 }
 
 .box6{
-    flex-basis: 25%;
+    flex-basis: 22%;
     height: 400px;
-    background-color: #ffc0cb;
-    border: 2px dashed black;
+    background-color: #fff;
 }
 
 /* Quinta sezione main */
