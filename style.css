@@ -218,11 +218,36 @@ main img{
     padding: 10px 10px 30px 10px;
 }
 
+/* Prima colonna sesta sezione */
+
 .box7{
     flex-basis: 300px;
     height: 500px;
-    background-color: #f08080;
     border: 2px dashed black;
+    padding: 30px;
+}
+
+.box7 h3{
+    font-size:24px;
+    color: #6f86d8;
+}
+
+.box7 .language{
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.box7 .language img{
+    width: 8%;
+}
+
+.box7 .social{
+    color: #fff;
+}
+
+.box7 span{
+    margin-right: 15px;
 }
 
 .box8{
@@ -230,6 +255,7 @@ main img{
     height: 500px;
     background-color: #20b2aa;
     border: 2px dashed white;
+    padding: 30px;
 }
 
 /* Footer con logo e bottone ai lati*/
