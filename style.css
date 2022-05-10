@@ -184,14 +184,14 @@ main img{
 .fifth_container{
     display: flex;
     justify-content: center;
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .slide_2{
     flex-basis: 70%;
     height: 700px;
-    background-color: #228b22;
-    border: 2px dashed black;
+    background-color: #f6f6f6;
+    text-align: center;
 }
 
 /* Sesta sezione main */
