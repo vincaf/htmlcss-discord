@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Elementi header */
 
 header{
-    background-color: #add8e6;
+    background-color: #255ee9;
     padding: 15px;
+    background-image: url("./img/jumbo.png");
+    background-size: cover;
 }
 
 .container_header{
@@ -17,31 +20,36 @@ header{
     max-width: 1000px;
     margin: 0 auto;
     justify-content:space-between;
-    background-color:#daa520;
+    background-color:#255ee9;
 }
 
 .logo{
     flex-grow: 1;
-    border: 2px dashed black;
     padding: 10px;
 }
 
 nav{
     flex-grow: 3;
-    border: 2px dashed black;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
 }
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: #fff;
+    padding: 20px;
 }
 
 .login{
     flex-grow: 1;
-    border: 2px dashed black;
     padding: 10px;
+    text-align: end;
+}
+
+.login button{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px 10px;
 }
 
 /* Padding di default su ogni sezione */
@@ -50,19 +58,46 @@ main section{
     padding: 40px;
 }
 
-/* Prima sezione main */
+/* Header - Prima sezione */
 
 .first_container{
+    height: 445px;
     display: flex;
     justify-content: center;
-    background-color: #00008b;
+    align-items: center;
 }
 
 .slide{
-    flex-basis: 800px;
-    height: 350px;
-    background-color: #ee82ee;
-    border: 2px dashed black;
+    flex-basis: 720px;
+    height: 320px;
+    padding: 50px;
+    text-align: center;
+}
+
+.slide h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 250%;
+}
+
+.slide p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.slide button{
+    margin: 15px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+#blackbutton{
+    background-color: #23272a;
+    color: white;
+    border-color: #23272a;
 }
 
 /* Seconda sezione main */

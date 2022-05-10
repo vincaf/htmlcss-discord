@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">    
     <title>Discord</title>
 </head>
@@ -12,24 +13,29 @@
     <!-- Header composto da logo, menu di navigazione e login -->
     <header>
         <div class="container_header">
-            <div class="logo">Logo</div>
+            <div class="logo"><img src="img/logo.svg" alt="logo"></div>
             <nav>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <a href="#">Scarica</a>
+                <a href="#">Perché Discord</a>
+                <a href="#">Nitro</a>
+                <a href="#">Sicurezza</a>
+                <a href="#">Assistenza</a>
             </nav>
-            <div class="login">login</div>
+            <div class="login"><button type="button">Accedi</button></div>
         </div>
+
+        <!-- Header - prima sezione contenitore principale centrato -->
+        <section class="first_container">
+            <div class="slide">
+                <h1>Il tuo posto per parlare</h1>
+                <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+                <button type="button"><i class="fa-solid fa-arrow-down-long"></i> Scarica per Mac</button>
+                <button id="blackbutton" type="button">Apri Discord nel tuo browser</button>
+            </div>
+        </section>
     </header>
 
     <main>
-        <!-- Prima sezione con contenitore principale centrato -->
-        <section class="first_container">
-            <div class="slide"></div>
-        </section>
-
         <!-- Seconda sezione con due contenitori -->
         <section class="second_container">
             <div class="box1"></div>
