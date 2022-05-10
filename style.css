@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementi header */
+
+header{
+    background-color: #add8e6;
+    padding: 15px;
+}
+
+.container_header{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content:space-between;
+    background-color:#daa520;
+}
+
+.logo{
+    flex-grow: 1;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+nav{
+    flex-grow: 3;
+    border: 2px dashed black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    flex-grow: 1;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+/* Padding di default su ogni sezione */
+
+main section{
+    padding: 40px;
+}
+
+/* Prima sezione main */
+
+.first_container{
+    display: flex;
+    justify-content: center;
+    background-color: #00008b;
+}
+
+.slide{
+    flex-basis: 800px;
+    height: 350px;
+    background-color: #ee82ee;
+    border: 2px dashed black;
+}
+
+/* Seconda sezione main */
+.second_container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.box1{
+    flex-basis: 45%;
+    height: 400px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.box2{
+    flex-basis: 25%;
+    height: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+/* Terza sezione main */
+
+.third_container{
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+}
+
+.box4{
+    flex-basis: 45%;
+    height: 400px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.box3{
+    flex-basis: 25%;
+    height: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+/* Quarta sezione main */
+
+.fourth_container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.box5{
+    flex-basis: 45%;
+    height: 400px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.box6{
+    flex-basis: 25%;
+    height: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+/* Quinta sezione main */
+
+.fifth_container{
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+}
+
+.slide_2{
+    flex-basis: 70%;
+    height: 700px;
+    background-color: #228b22;
+    border: 2px dashed black;
+}
+
+/* Sesta sezione main */
+
+.sixth_container{
+    display: flex;
+    justify-content: center;
+    background-color: #23272a;
+    padding: 10px 10px 30px 10px;
+}
+
+.box7{
+    flex-basis: 300px;
+    height: 500px;
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.box8{
+    flex-basis: 175px;
+    height: 500px;
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+/* Footer con logo e bottone ai lati*/
+
+footer{
+    background-color: #23272a;
+    padding: 20px 20px 0px 20px;
+    border-top: 1px solid white;
+}
+
+.container_footer{
+    display: flex;
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 70px;
+    justify-content:space-between;
+    background-color:#7fffd4;
+}
+
+footer .logo{
+    border: 2px dashed black;
+    padding: 5px;
+    background-color: #ffb6c1;
+    flex-grow: 0;
+    align-self: center;
+}
+
+footer .button{
+    border: 2px dashed black;
+    padding: 5px;
+    background-color: #ffb6c1;
+    flex-grow: 0;
+    align-self: center;
+}
